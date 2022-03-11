@@ -1,0 +1,155 @@
+body{
+    margin: auto;
+}
+#header{
+    height:60px;
+    width: 100%;
+   background-color: rgb(225 140 99);
+}
+#icon{
+    float:left;
+    margin-left: 1%;
+    margin-top: -1%;
+}
+#social{
+    float:right;
+}
+a{
+    text-decoration: none;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/*Search CSS*/
+#search{
+    height:500px;
+    width: 100%;
+   background-image: url('food-wallpaper.png');
+   background-repeat: no-repeat;
+   background-size: 100% 510px;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(240 229 229 / 55%);
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 45%;
+    position: absolute;
+}
+#logo>span{
+    margin-top: 16%;
+    margin-left: 25%;
+    position: absolute;
+    font-size: 85px;
+
+}
+#heading{
+    margin-top: 14%;
+    margin-left: 30%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-top: 19%;
+    margin-left: 25%;
+    position: absolute;
+    
+
+}
+select{
+    height: 60px;
+    width: 38%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.secselect{
+    width: 50%;
+}
+
+/*QuickSearch CSS*/
+#quickSearch{
+    height:600px;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+}
+.firsthead{
+   font-size: 32px;
+   color: rgb(255, 145, 0);
+   display: block;
+   margin-left: 2%;
+
+}
+.secondhead{
+    font-size: 20px;
+    color: rgb(105, 104, 104);
+    line-height: 3;
+    margin-left: 2%;
+}
+.container{
+    height: 180px;
+    width: 30%;
+  box-shadow: 10px 16px 25px grey;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.component1{
+    height: 180px;
+    width: 50%;
+    background-color: aqua;
+    float: left;
+}
+.component1>img{
+    height: 180px;
+    width: 100%;
+}
+.component2{
+    height: 180px;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+.componenthead{
+    color: rgb(255, 145, 0);
+    font-size: 25px;
+
+}
+.componentsubhead{
+    color: gray;
+    font-size: 17px;
+}
+
+/*footer CSS*/
+#footer{
+    height:120px;
+    width: 100%;
+   background-color:rgb(225 140 99);
+}
+.footdiv{
+    height: 70px;
+    width: 33%;
+    border-right: 2px solid black;
+    float: left;
+}
+.footertext{
+    text-align: center;
+}
+.noBorder{
+    border:none;
+}
+p{
+    margin-left: 2%;
+    font-weight: bold;
+}
